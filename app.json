@@ -1,0 +1,23 @@
+{
+  "name": "gender-detection-web-app",
+  "description": "",
+  "keywords": [
+    "productivity",
+    "HTML5",
+    "scalpel"
+  ],
+
+  "buildpacks": [
+    {
+      "url": "https://github.com/RakeshSuvvari/Gender-Detection-Web-App"
+    }
+  ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "bundle exec rake test"
+      }
+    }
+  }
+}
+
